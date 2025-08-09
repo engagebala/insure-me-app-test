@@ -30,7 +30,7 @@ public class App
         
         //1. Locate and Enter Name
         WebElement name = driver.findElement(By.id("inputName"));
-        name.sendKeys("Shubham");
+        name.sendKeys("balu");
         
         String printName = driver.findElement(By.id("inputName")).getText();
         
@@ -38,17 +38,17 @@ public class App
         
         //2. Locate and Enter Contact
         WebElement number = driver.findElement(By.id("inputNumber"));
-        number.sendKeys("999999999");
+        number.sendKeys("7777777777");
         System.out.println(number.getText().toString());
         
         //3. Locate Email and Enter Email
         WebElement mail = driver.findElement(By.id("inputMail"));
-        mail.sendKeys("shubham@xyz.com");
+        mail.sendKeys("balu@xyz.com");
         System.out.println(mail.getText());
         
         //4. Locate Message and Enter Message
         WebElement message = driver.findElement(By.id("inputMessage"));
-        message.sendKeys("Hello, How are you ?");
+        message.sendKeys("Hello, How are u ?");
         System.out.println(message.getText());
         
         Thread.sleep(2000);
